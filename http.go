@@ -25,11 +25,7 @@ func to_roman(n int) string {
     }
 
     return romanized;
-  
-  //  if n == 2 {
-//        return "II"
-  //  }
-    //return "I"
+
 }
 
 type romanGenerator int
