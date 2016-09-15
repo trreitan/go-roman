@@ -17,7 +17,7 @@ func to_roman(n int) string {
     fmt.Println("romanNumeral:", romanNumeral)
     var romanized = ""
     
-    for index := 0; index < decimalValue.length; index++ {
+    for index := 0; index < len(decimalValue); index++ {
         for decimalValue[index] <= num {
             romanized += romanNumeral[index];
             num -= decimalValue[index];
