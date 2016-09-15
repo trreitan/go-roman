@@ -17,14 +17,14 @@ func to_roman(n int) string {
     fmt.Println("romanNumeral:", romanNumeral)
     var romanized = ""
     
-    for (var index = 0; index < decimalValue.length; index++) {
-    while (decimalValue[index] <= num) {
-      romanized += romanNumeral[index];
-      num -= decimalValue[index];
+    for index := 0; index < decimalValue.length; index++ {
+        for decimalValue[index] <= num {
+            romanized += romanNumeral[index];
+            num -= decimalValue[index];
+        }
     }
-  }
 
-  return romanized;
+    return romanized;
   
   //  if n == 2 {
 //        return "II"
