@@ -13,7 +13,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 func to_roman(n int) string {
     decimalValue := [13]int{ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 }
     fmt.Println("decimalValue:", decimalValue)
-    romanNumeral :=string[ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" ]
+    romanNumeral :=string{ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" }
     fmt.Println("romanNumeral:", romanNumeral)
     //var romanized = ""
     
