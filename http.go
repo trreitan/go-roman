@@ -15,7 +15,7 @@ func to_roman(n int) string {
     fmt.Println("decimalValue:", decimalValue)
     romanNumeral := [13]string{ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" }
     fmt.Println("romanNumeral:", romanNumeral)
-    //var romanized = ""
+    romanized = ""
     
     if n == 2 {
         return "II"
